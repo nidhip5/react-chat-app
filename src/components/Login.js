@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div
-      className="h-screen relative"
+      className="h-screen relative bg-cover bg-bottom"
       style={{ backgroundImage: `url('/bg.jpeg')` }}
     >
       <div className="bg-white rounded-tl-[4rem] absolute bottom-0 right-0 h-[calc(100vh-220px)] w-full shadow-md p-8">
@@ -29,7 +29,7 @@ const Login = () => {
             />
           </div>
         </div>
-        <Link to="/contacts">
+        <Link to="/user">
           <button className="w-full p-4 rounded-md text-white font-semibold bg-orange-400 mt-16">
             Login
           </button>
